@@ -8,10 +8,10 @@ namespace Singleton
         {
             // Create a class with a single instance - like configManager/Log class
             // Issue - we are creating two instance of ConfigManager here
-            ConfigManager manager = new ConfigManager();
+            ConfigManager manager = ConfigManager.GetInstance();
             manager.Set("name", "Dave");
 
-            ConfigManager other = new ConfigManager();
+            ConfigManager other = ConfigManager.GetInstance();
             Console.WriteLine(other.Get("name"));
 
             Console.ReadLine();

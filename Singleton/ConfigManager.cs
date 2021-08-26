@@ -4,16 +4,24 @@ namespace Singleton
 {
     public class ConfigManager
     {
-        private Dictionary<string, object> settings = new Dictionary<string, object>();
+        private Dictionary<string, object> _settings = new Dictionary<string, object>();
+        private static ConfigManager _instance = new ConfigManager();
+
+        private ConfigManager(){}
+
+        public static ConfigManager GetInstance()
+        {
+            return _instance;
+        }
 
         public void Set(string key, object value)
         {
-            settings.Add(key, value);
+            _settings.Add(key, value);
         }
 
         public object Get(string key)
         {
-            return settings[key];
+            return _settings[key];
         }
     }
 }
