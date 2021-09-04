@@ -43,11 +43,19 @@
     <Compile Include="Ant\AntTextBox.cs" />
     <Compile Include="App\ContactForm.cs" />
     <Compile Include="Theme.cs" />
+    <Compile Include="IWidgetFactory.cs" />
+    <Compile Include="Material\MaterialWidgetFactory.cs" />
+    <Compile Include="Ant\AntWidgetFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Material\" />
     <Folder Include="Ant\" />
     <Folder Include="App\" />
+    <Folder Include="Solution Diagram\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Solution Diagram\AbstractFactoryPattern.png" />
+    <None Include="Solution Diagram\AbstractFactoryGangOfFour.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

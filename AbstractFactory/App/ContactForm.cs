@@ -7,18 +7,10 @@ namespace AbstractFactory.App
     public class ContactForm
     {
         // Use can change the theme at runtime
-        public void Render(Theme theme)
+        public void Render(IWidgetFactory factory)
         {
-            if (theme == Theme.Ant)
-            {
-                new AntTextBox().Render();
-                new AntButton().Render();
-            }
-            else if (theme == Theme.Material)
-            {
-                new MaterialTextBox().Render();
-                new MaterialButton().Render();
-            }
+            factory.CreateButton().Render();
+            factory.CreateTextBox().Render();
         }
     }
 }
