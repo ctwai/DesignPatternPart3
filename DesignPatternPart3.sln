@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMetthodPattern", "Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{7160DDC0-3246-4366-AA7D-4A10F14DC4A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{BEB4A720-18AA-4515-A634-586BA23AC546}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -33,6 +35,10 @@ Global
 		{7160DDC0-3246-4366-AA7D-4A10F14DC4A0}.Debug|anycpu.Build.0 = Debug|anycpu
 		{7160DDC0-3246-4366-AA7D-4A10F14DC4A0}.Release|anycpu.ActiveCfg = Release|anycpu
 		{7160DDC0-3246-4366-AA7D-4A10F14DC4A0}.Release|anycpu.Build.0 = Release|anycpu
+		{BEB4A720-18AA-4515-A634-586BA23AC546}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{BEB4A720-18AA-4515-A634-586BA23AC546}.Debug|anycpu.Build.0 = Debug|anycpu
+		{BEB4A720-18AA-4515-A634-586BA23AC546}.Release|anycpu.ActiveCfg = Release|anycpu
+		{BEB4A720-18AA-4515-A634-586BA23AC546}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
