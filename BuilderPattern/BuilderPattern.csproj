@@ -39,6 +39,13 @@
     <Compile Include="PresentationFormat.cs" />
     <Compile Include="PdfDocument.cs" />
     <Compile Include="Movie.cs" />
+    <Compile Include="IPresentationBuilder.cs" />
+    <Compile Include="PdfDocumentBuilder.cs" />
+    <Compile Include="MovieBuilder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Screen Shot 2021-09-13 at 07.53.33.png" />
+    <None Include="Screen Shot 2021-09-13 at 07.56.02.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
